@@ -4,7 +4,7 @@ This project is an effort by two friends working together.  One on the Squarelin
 
 Neither of us were compensated in any way, by any entity to produce this tool.  It was just a labor of love for programming and learning new things.
 
-This project was developed on the Arduino IDE only.  There is just 1 ino code file and a dozen or so files exported from SquareLine Studio including screen definitions, font files, moon phase pictures and support code to glue it all together.
+This project was developed on the Arduino IDE only.  There is just 1 ino code file and a couple dozen files exported from SquareLine Studio including screen definitions, font files, moon phase pictures and support code to glue it all together.
 
 This was originally proposed as a way to learn how SquareLine Studio works with a LilyGo T4S3 and find if it was even possible.  There were SO many questions that needed to be answered.  It took quite a while to find all of the pieces that made it work properly but one of us (Joe B.) was persistent in his searches and did find those answers and that resulted in the project looking really nice and running great.  There are 3 screens, the main GPS page, a sky map of the satellites and a statistics page with location averaging.  Initially, they were selected with buttons but Joe got swipe working and my code supports it so swipe is the way to switch screens now.
 
