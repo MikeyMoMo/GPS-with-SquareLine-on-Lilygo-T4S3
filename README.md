@@ -14,7 +14,7 @@ We used an I2C GPS receiver from SparkFun.  There are several selections that yo
 
 An initial, short video is here: https://www.youtube.com/watch?v=ijUpDqNJf68 -- A longer one will be posted soon and a link will be included here.
 
-We just found an oddity.  Line 303 (amoled.XPowersPPM::disableStatLed();) compiles and runs for me but will not compile for Joe.  He is on the Arduino version 2 and has an error message but tried it on version 1 and still has the error message.  I am on IDE version 1 and it works just fine.  If it won't compile for you, just comment it out.  It is only there to turn off the irritating, red, flashing charging light.  It does not affect program operatioon.  More on this later.
+We just found an oddity.  Line 303 (amoled.XPowersPPM::disableStatLed();) compiles and runs for me but will not compile for Joe.  He is on the Arduino version 2 and has an error message but tried it on version 1 and still has the error message.  I am on IDE version 1 and it works just fine.  If it won't compile for you, just comment it out.  It is only there to turn off the irritating, red, flashing charging light.  It does not affect program operatioon.  The problem may be with board definition verion 3.0.4.  I am on 2.0.17, having had problems with 3.0.4, previously. More on this later.
 
 So just compile the code and run it.  Click fields on the main screen to change units or visual presentation.  The setting are checked and changed ones are saved each 10 minutes on the modulo 10 minute.  If you shutdown or reboot the board before that, they will not be saved.  This was done to save wear on the flash memory.
 
