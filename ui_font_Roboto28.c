@@ -2695,3 +2695,4 @@ lv_font_t ui_font_Roboto28 = {
 
 
 #endif /*#if UI_FONT_ROBOTO28*/
+

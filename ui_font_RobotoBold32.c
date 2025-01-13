@@ -3108,3 +3108,4 @@ lv_font_t ui_font_RobotoBold32 = {
 
 
 #endif /*#if UI_FONT_ROBOTOBOLD32*/
+

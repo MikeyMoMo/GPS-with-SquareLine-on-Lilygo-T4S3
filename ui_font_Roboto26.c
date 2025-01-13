@@ -2473,3 +2473,4 @@ lv_font_t ui_font_Roboto26 = {
 
 
 #endif /*#if UI_FONT_ROBOTO26*/
+
